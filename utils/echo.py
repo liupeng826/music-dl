@@ -57,7 +57,7 @@ def menu(music_list):
         print(idx + source + info)
 
 def usage():
-    print('usage: python main.py [-k keyword] [-s source] [-c count] [-o outdir] [-v] [-m]')
+    print('usage: python3 main.py [-k keyword] [-s source] [-c count] [-o outdir] [-v] [-m]')
     print('\t%-16s %s' % ('-h --help ', '帮助'))
     print('\t%-16s %s' % ('-v --verbose ', '详细模式'))
     print('\t%-16s %s' % ('-m --merge ', '对搜索结果去重和排序'))
@@ -67,7 +67,7 @@ def usage():
     print('\t%-16s %s' % ('-c --count= ', '数量限制'))
     print('\t%-16s %s' % ('-o --outdir= ', '指定输出目录'))
     print('\t%-16s %s' % ('-x --proxy= ', '指定代理（如http://127.0.0.1:1087）'))
-    print('example: python main.py -k "周杰伦" -s "qq netease kugou baidu xiami" -c 10 -o "/tmp"')
+    print('example: python3 main.py -k "毛不易" -s "qq netease kugou baidu xiami" -c 10 -o "/Users/v0cn123/Music"')
 
 
 def notice(keyword):

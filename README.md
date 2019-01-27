@@ -55,7 +55,7 @@ $ pip3 install -r requirements.txt
 
 ```
 $ python3 main.py -h
-usage: python main.py [-k keyword] [-s source] [-c count] [-o outdir] [-v] [-m]
+usage: python3 main.py [-k keyword] [-s source] [-c count] [-o outdir] [-v] [-m]
 	-h --help        帮助
 	-v --verbose     详细模式
 	-m --merge       对搜索结果去重和排序
@@ -65,7 +65,7 @@ usage: python main.py [-k keyword] [-s source] [-c count] [-o outdir] [-v] [-m]
 	-c --count=      数量限制
 	-o --outdir=     指定输出目录
 	-x --proxy=      指定代理（如http://127.0.0.1:1087）
-example: python main.py -k "周杰伦" -s "qq netease kugou baidu xiami" -c 10 -o "/tmp"
+example: python3 main.py -k "毛不易" -s "qq netease kugou baidu xiami" -c 10 -o "/Users/v0cn123/Music"
 ```
 
 - 默认搜索所有音乐源，每个数量限制为5，保存目录为当前目录，不合并搜索结果。
